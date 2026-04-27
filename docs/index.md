@@ -3,33 +3,28 @@ layout: home
 layoutClass: 'm-home-layout'
 
 hero:
-  name: 茂茂的
-  text: 前端导航模板
+  name: Bin的
+  text: Docs导航
   tagline: 基于 VitePress 的个人前端导航页面模板
-  image:
-    src: /logo.png
-    alt: 茂茂物语
+  # image:
+  #   src: /logo.png
+  #   alt: Bin-Docs
   actions:
-    - text: 茂茂物语
+    - text: Bin-Docs
       link: https://notes.fe-mm.com
-    - text: 前端导航
+    - text: maomao前端导航
       link: /nav/
-      theme: alt
-    - text: mmPlayer
-      link: https://netease-music.fe-mm.com
-    - text: 测试页
-      link: /test
       theme: alt
 features:
   - icon: 📖
     title: 前端物语
     details: 整理前端常用知识点<small>（面试八股文）</small><br />如有异议按你的理解为主，不接受反驳
-    link: https://notes.fe-mm.com/fe/javascript/types
+    link: fe/javascript/basics
     linkText: 前端常用知识
   - icon: 📘
     title: 源码阅读
     details: 了解各种库的实现原理<br />学习其中的小技巧和冷知识
-    link: https://notes.fe-mm.com/analysis/utils/only-allow
+    link: be/java/java
     linkText: 源码阅读
   - icon: 💡
     title: Workflow

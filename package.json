@@ -5,9 +5,9 @@
   "description": "基于 VitePress 打造个人前端导航网站",
   "private": true,
   "scripts": {
-    "dev": "vitepress dev docs --port=8732",
+    "dev": "vitepress dev docs --port=8888",
     "build": "vitepress build docs",
-    "preview": "vitepress preview docs --port 8730",
+    "preview": "vitepress preview docs --port 8888",
     "prepare": "husky install",
     "format": "prettier --write ."
   },
