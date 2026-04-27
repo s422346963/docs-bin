@@ -72,7 +72,7 @@ export default defineConfig({
     comment: {
       repo: 's422346963/docs-bin',
       repoId: 'R_kgDOSNn_3w',
-      category: 'Announcements',
+      category: 'General',
       categoryId: 'DIC_kwDOSNn_384C7x4p',
     },
 
