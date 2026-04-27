@@ -51,6 +51,7 @@ const isDocFooterVisible = computed(() => {
 
 .m-doc-footer-message,
 .m-doc-footer-copyright {
+  font-weight: 600;
   display: flex;
   align-items: center;
 }

@@ -41,7 +41,7 @@ export default defineConfig({
     //socialLinks: [{ icon: 'github', link: 'https://github.com/maomao1996/vitepress-nav-template' }],
 
     footer: {
-      message: '',
+      message: '欢迎 star ⭐ 让更多人发现',
       copyright: 'Copyright © 2019-present maomao',
     },
 
@@ -75,6 +75,33 @@ export default defineConfig({
       category: 'Announcements',
       categoryId: 'DIC_kwDOSNn_384C7x4p',
     },
+
+    links: [
+      {
+        name: '德胜独立开发',
+        url: 'https://desheng.blog.csdn.net/',
+        description: '分享技术、记录成长',
+        avatar: 'https://avatars.githubusercontent.com/u/109416673'
+      },
+      {
+        name: 'Sonder',
+        url: 'https://sonder.ink/',
+        description: '乘风波破浪有时，直挂云帆破沧海',
+        avatar: 'https://avatars.githubusercontent.com/u/109416673'
+      },
+      {
+        name: '骤雨重山',
+        url: 'https://www.zhuyushan.com/',
+        description: '运气是计划之外的东西',
+        avatar: 'https://avatars.githubusercontent.com/u/109416673'
+      },
+      {
+        name: '肯了德的博客',
+        url: 'https://www.cnblogs.com/kenlede/',
+        description: '专注于分享实用的知识，你乐意看就多看看，保证你看一个不吱声',
+        avatar: 'https://avatars.githubusercontent.com/u/109416673'
+      },
+    ],
   },
 
   vite: {

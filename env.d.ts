@@ -26,7 +26,18 @@ declare module 'vitepress' {
         category: string
         /** giscus 分类 ID */
         categoryId: string
-      }
+      },
+
+      /**
+       * 友情链接配置
+       */
+      links?: {
+        name: string
+        url: string
+        avatar: string
+        description: string
+      }[]
+
     }
   }
 }

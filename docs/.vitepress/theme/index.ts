@@ -6,6 +6,7 @@ import { createMediumZoomProvider } from './composables/useMediumZoom'
 
 import MLayout from './components/MLayout.vue'
 import MNavLinks from './components/MNavLinks.vue'
+import MLinks from './components/MLinks.vue'
 
 import './styles/index.scss'
 
@@ -31,6 +32,7 @@ export default {
     app.provide('DEV', process.env.NODE_ENV === 'development')
 
     app.component('MNavLinks', MNavLinks)
+    app.component('MLinks', MLinks)
 
     if (typeof window !== 'undefined') {
       watch(
